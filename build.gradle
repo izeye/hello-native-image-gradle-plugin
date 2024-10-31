@@ -24,12 +24,6 @@ application {
     mainClass = 'com.izeye.helloworld.Fortune'
 }
 
-graalvmNative {
-    binaries.all {
-        resources.autodetect()
-    }
-}
-
 test {
     useJUnitPlatform()
 }
